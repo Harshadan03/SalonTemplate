@@ -1,0 +1,850 @@
+*,html,body{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+  height: 6000px;
+}
+
+
+
+header{
+    height: 150px;
+    line-height: 150px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.secondary{
+    background-color: orange;
+    box-shadow: 0px 0px 30px 0px;
+    transition:all 1s ease-in; 
+}
+
+
+
+ul{
+   list-style: none; 
+}
+
+ul li{
+   display: inline-block;
+}
+
+header nav{
+  float: right;
+}
+
+.logo img{
+    margin-top: 0px;
+}
+
+header nav ul li a{
+    padding-right: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: deeppink;
+    
+}
+.img1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(../image/hair-cut1.png);
+    background-size: 100% 100%;
+}
+
+section ul li i#insta:hover{
+    color: deeppink;
+}
+
+section ul li i#face:hover{
+    color: royalblue;
+}
+
+section ul li i#twit:hover{
+    color: deepskyblue;
+}
+
+.img2{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(..//image/curl1.jpg);
+    background-size: 100% 100%;
+}
+.img3{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(..//image/banner-1.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.slider,.slider ul,.slider ul li{
+    height: 630px;
+    width: 100%;
+    color: darkorange;
+   text-align: center;
+}
+.slider h2{
+    font-weight: bold;
+    margin-top: 270px;
+}
+
+.slider,.slider ul,.slider ul li:hover{
+
+    color: white;
+}
+
+.slider span{
+    color:white;
+}
+.slider span:hover{
+    color: darkorange;
+}
+
+
+
+.slider a{
+    padding: 10px 40px;
+    margin-right: 10px;
+}
+
+.slider i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.slider a.btn-half{
+    background-color: orange;
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.slider a.btn-full{
+    background-color:orange;
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.slider a.btn-half:hover{
+    background-color: darkorange;
+    color: black;
+    
+}
+
+.slider a.btn-full:hover{
+    background-color: darkorange;
+    color: black;
+}
+/*
+slider section end
+About Us section start
+*/
+
+.intro-area{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.sub-heading{
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.sub-heading:before{
+    content: "";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    margin-left: -3%;
+    width: 6%;
+    height: 4px;
+    background-color: darkorange;
+    z-index: 1;
+    -webkit-transition:  0.3s ease;
+    -moz-transition:  0.3s ease;
+    -ms-transition:  0.3s ease;
+    -o-transition:  0.3s ease;
+    transition:  0.3s ease;
+}
+
+.sub-heading:hover:before{
+    width:24%;
+    margin-left: -12%;
+}
+
+.sub-heading:after{
+    content: "";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 4px;
+    background-color: #e1e1e1;
+    
+}
+
+
+
+
+.sub-heading p{
+    color: cadetblue;
+    display:inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+.intro-block{
+    position: relative;
+    background: #f7f7f7;
+    margin: 50px 0px 0px;
+    text-align: center;
+    padding: 74px 25px 40px;
+}
+
+.intro-block:hover, intro-block:active{
+    background: darkorange;
+}
+
+.intro-block:hover{
+    
+    transition:  0.6s ease;
+        -webkit-transition:  0.6s ease;
+    -moz-transition:  0.6s ease;
+    -ms-transition:  0.6s ease;
+    -o-transition:  0.6s ease;
+}
+
+
+.intro-block .intro-icon{
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px;
+    
+}
+
+.intro-block .fa{
+    
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color: white;
+    line-height: 2;
+    background-color: darkorange;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px #cceef9;
+    
+        
+}
+
+.intro-block:hover .fa, .intro-block:active .fa{
+    background: white;
+    color: darkorange;
+    box-shadow: :0px 0px 0px 10px darkorange;
+}
+
+.intro-block h3{
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.intro-block p{
+    color: black;
+}
+
+.intro-block:hover h3, .intro-block:hover p{
+    color: white;
+}
+
+/*
+About us end 
+Feature block start
+*/
+
+.feature-area{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/seissors.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title h2,p{
+    color: white;
+}
+.title h2:hover{
+    color: orange;
+}
+
+.single-feature h3{
+    color: white;
+}
+
+.single-feature{
+    position: relative;
+    width:325px;
+    float: left;
+    padding: 30px 0px;
+    text-align: center;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+     -webkit-transition:  0.3s ease;
+    -moz-transition:  0.3s ease;
+    -ms-transition:  0.3s ease;
+    -o-transition:  0.3s ease;
+    transition:  0.3s ease;
+}
+
+.feature-block:after{
+    content: "";
+    display: table;
+}
+
+.feature-block:after{
+    clear: both;
+}
+
+.feature-icon{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.single-feature i.fa{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: orange;
+    color:white;
+    width: 64px;
+    height: 64px;
+     -webkit-transition:  0.3s ease;
+    -moz-transition:  0.3s ease;
+    -ms-transition:  0.3s ease;
+    -o-transition:  0.3s ease;
+    transition:  0.3s ease;
+
+}
+
+.feature-block:hover .single-feature{
+    border-color: white;
+     -webkit-transition:  0.3s ease;
+    -moz-transition:  0.3s ease;
+    -ms-transition:  0.3s ease;
+    -o-transition:  0.3s ease;
+    transition:  0.3s ease;
+    
+}
+
+.single-feature:hover .featured-icon .fa{
+    border: 2px  solid orange;
+    background: white;
+    color: darkorange;
+}
+
+.single-feature:nth-of-type(even){
+    border-right: none;
+}.single-feature:nth-of-type(3){
+    border-bottom: none;
+}.single-feature:nth-of-type(4){
+    border-bottom: none;
+}
+
+
+.feature-area{
+    padding: 100px 0px;
+}
+
+.title .sub-heading p{
+    color: white; 
+}
+
+/*services end 
+  Offer section start
+*/
+
+.offer-area .title h2{
+    color: black;
+}
+.offer-area .title:hover h2{
+    color: darkorange;
+}
+
+.offer-area .title .sub-heading p{
+    color: black;
+}
+
+.offer-area{
+    padding: 100px 0px;
+}
+
+.offer-details h3{
+    color:darkorange;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.offer-details p{
+    color: black;
+    font-weight: 100;     
+}
+
+.offer-list ul{
+    list-style: none;
+}
+
+.offer-list li{
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 80px;
+     -webkit-transition:  0.3s ease;
+    -moz-transition:  0.3s ease;
+    -ms-transition:  0.3s ease;
+    -o-transition:  0.3s ease;
+    transition:  0.3s ease;
+    
+}
+
+.offer-icon{
+    position: absolute;
+    left: 0;
+}
+
+.offer-icon i{
+   font-size: 25px; 
+    width: 63px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+    border-radius: 50%;
+    color:darkorange;
+    background-color: white;
+    border: 2px solid darkorange;
+}
+
+.offer-list li:hover i{
+    color: white;
+    background-color: darkorange;
+    
+}
+
+.testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(..//image/salonBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 120px;
+    color: white;
+    margin-top: 100px;
+}
+
+.testimonials h2:hover{
+    color: darkorange;
+}
+.testimonials .carousel-indicators{
+    bottom: -60px;
+}
+
+.testimonials .sub-heading p{
+    color: white;
+}
+
+.carousel-inner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid darkorange;
+    padding: 5px;
+}
+
+.testimonials .carousel-indicators li.active{
+    background-color:  darkorange;
+}
+
+/*
+testimonial end
+team area section start
+*/
+
+.team-area{
+    padding: 100px 0px;
+}
+
+.team-area:hover h2{
+    color: darkorange;
+}
+
+.team-area .sub-heading{
+    margin-bottom: 100px;
+}
+
+
+.team-area .sub-heading p {
+      color: black;
+}
+
+.team-man{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: -50px;
+    overflow: hidden;
+    min-height: 100px;
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    border:4px solid darkorange;
+    border-radius: 50%;
+    
+}
+
+.team-man img{
+    width: 100px;
+    height: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+}
+
+.team-block{
+    text-align: center;
+    position: relative;
+}
+
+.team-block h3{
+    color: darkorange;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 70px;
+    margin-bottom: 5px
+}
+
+.team-block span{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.025em;
+}
+
+.team-block p{
+    color: black;
+    font-size: 14px;
+    padding: 25px 15px;
+    line-height: 24px;
+}
+
+.team-description{
+    background-color: #f5f5f5;
+    
+}
+
+.team-social-network{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.team-social-network a{
+    margin: 0px 6px;
+}
+
+.team-social-network i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: darkorange;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 50%;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.team-block:hover .team-description{
+    color: white;
+    background-color: darkorange;
+      -webkit-transition:  0.3s ease;
+    -moz-transition:  0.3s ease;
+    -ms-transition:  0.3s ease;
+    -o-transition:  0.3s ease;
+    transition:  0.3s ease;
+   
+}
+
+
+.team-block:hover .team-title h3,
+.team-block:hover .team-title span{
+    color: white;
+      -webkit-transition:  0.5s ease;
+    -moz-transition:  0.5s ease;
+    -ms-transition:  0.5s ease;
+    -o-transition:  0.5s ease;
+    transition:  0.5s ease;
+   
+}
+
+.team-block:hover .team-description p{
+    color: white;
+      -webkit-transition:  0.5s ease;
+    -moz-transition:  0.5s ease;
+    -ms-transition:  0.5s ease;
+    -o-transition:  0.5s ease;
+    transition:  0.5s ease;
+    
+}
+
+.team-block:hover .team-social-network i#insta{
+    color: deeppink;
+    border-color: white;
+    -webkit-transition:  0.5s ease;
+    -moz-transition:  0.5s ease;
+    -ms-transition:  0.5s ease;
+    -o-transition:  0.5s ease;
+    transition:  0.5s ease;
+   
+}
+
+.team-block:hover .team-social-network i#face{
+    color: royalblue;
+    border-color: white;
+    -webkit-transition:  0.5s ease;
+    -moz-transition:  0.5s ease;
+    -ms-transition:  0.5s ease;
+    -o-transition:  0.5s ease;
+    transition:  0.5s ease;
+   
+}
+
+.team-block:hover .team-social-network i#twit{
+    color: deepskyblue;
+    border-color: white;
+    -webkit-transition:  0.5s ease;
+    -moz-transition:  0.5s ease;
+    -ms-transition:  0.5s ease;
+    -o-transition:  0.5s ease;
+    transition:  0.5s ease;
+   
+}
+
+/*team section end
+Contact section start
+*/
+
+.contact-area{
+    padding: 100px 0px;
+}
+
+.contact-area{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(..//image/reception.jpg);
+     background-attachment: fixed;
+    background-position: center;
+
+}
+
+.contact-area .container{
+    color: white;
+}
+
+.contact-area .sub-heading p{
+    color: white;
+}
+
+.divider{
+    border-right: 1px solid #d9d9d9;
+}
+
+.contact-area:hover h2{
+    color: darkorange
+}
+
+.contact-area h3{
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contact-area h4{
+    color: darkorange;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 0.025em;
+    text-transform: capitalize;
+}
+
+.contact-area span{
+    display: block;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 0.025em;
+    
+}
+
+.contact-area ul li{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.contact-area ul li:last-child{
+    margin-bottom: 0px;
+}
+
+.contact-address ul li .fa{
+    width: 25px;
+    float: left;
+    color: darkorange;
+    font-size: 20px;
+    margin-top: 10px
+}
+
+.contact-address ul li .address-phone{
+    width: 180px;
+    float: left;
+    padding-left: 25px;
+    
+}
+
+.contact-block{
+    padding-left: 25px;
+}
+
+.contact-area .form-control, .contact-area textarea{
+    font-family: 'Roboto',sans-serif; 
+    background-color: #f8fdff;
+    border: 1px solid orange;
+    padding: 10px 12px;
+    color: black;
+    height: 45px;
+    font-weight: 400;
+}
+
+.contact-area .form-group{
+    margin-bottom: 30px;
+}
+.contact-area textarea{
+    min-height: 120px;
+}
+
+.contact-area .default-btn{
+    padding-left: 25px;
+    background-color: orange;
+    color: white
+}
+
+.contact-area .default-btn:hover{
+
+    background-color: darkorange;
+    color: black;
+}
+/*
+contact area end
+google map start
+*/
+
+.google-animation {
+    padding:100px 0px;
+}
+
+.google-animation{
+    background-color:#f8fdff;
+    
+}
+
+.google-animation:hover h2{
+    color: darkorange;
+}
+
+/*
+footer start
+*/
+
+footer
+{
+    background: orange;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -mox-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    padding-top:0px;
+    padding-bottom:0px;
+
+}
+
+
+.social-icon a
+{   
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+
+.social-icon .fa
+{
+   
+    
+    font-size: 25px;
+    color: darkorange;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    line-height: 2;
+    border-radius:50%
+    transition: .3s;
+    border: 3px solid orange;
+    text-align: center;
+    padding-top: 2px
+    
+}
+
+
+.social-icon a:hover .fa#fb
+{
+    border:3px solid royalblue;
+    color: royalblue;
+}
+
+.social-icon a:hover .fa#insta
+{
+    border:3px solid deeppink;
+    color:deeppink;
+}
+
+.social-icon a:hover .fa#twit
+{
+    border:3px solid deepskyblue;
+    color: deepskyblue;
+}
+.social-icon a:hover .fa#utube
+{
+    border:3px solid red;
+    color: red;
+}
+.social-icon a:hover .fa#rss
+{
+    border:3px solid greenyellow;
+    color: greenyellow;
+}
+
+.copyright .sub-heading p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
